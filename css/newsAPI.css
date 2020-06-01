@@ -1,0 +1,123 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #eee;
+}
+#HeaderBlock {
+  background-color: #111;
+}
+#HeaderBlock .title {
+  font-size: 30px;
+  color: #fff;
+  box-shadow: 10px 10px 10px 10px #222;
+}
+nav ul li {
+  padding-right: 15px;
+  margin: 0;
+}
+nav a {
+  width: 150px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(26, 211, 186);
+}
+nav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-top: 0px;
+  position: relative;
+  top: -10px;
+}
+#SportsSection ul li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 8px;
+  font-size: 14px;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#SportsSection,
+#FirstSports {
+  border-right: 1px solid #ccc;
+  height: 100%;
+  background: #fff;
+  box-shadow: 1px 1px 3px 1px #ccc;
+}
+#FirstSports img {
+  height: 150px;
+  width: 100%;
+}
+#articleContent {
+  /* display: flex; */
+}
+#articleContent .enterImg {
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+  left: 7px;
+}
+#articleContent .row {
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  width: unset;
+}
+#entertainmentAllTemplate ul li {
+  border: none;
+}
+.text-muted {
+  font-size: 11px;
+  text-transform: capitalize;
+  padding: 0px 8px;
+}
+#covidBlock div,#covidIndiaBlock div {
+  background-color: #fff;
+  padding: 7px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 1px #eee;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+#covidBlock div h4,#covidIndiaBlock div h4{
+  padding:5px;
+}
+.icon img{
+  height: 39px !important;
+  width: auto !important;
+  object-fit: scale-down;
+}
+#weatherTemplate .card-body p, #weatherTemplate span{
+  padding: 4px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #03A9F4;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  margin: 10px;
+}
+#weatherTemplate .card-body div{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

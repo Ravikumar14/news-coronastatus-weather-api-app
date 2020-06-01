@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWS</title>
+    <link rel="stylesheet" href="./css/newsAPI.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.4.1-dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <section id="HeaderBlock">
+      <article class="container">
+        <h1 class="title">E NEWS Portal</h1>
+        <div class="navbar">
+          <nav class="nav bg-success">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#news" class="nav-link">News</a>
+              </li>
+              <li class="nav-item">
+                <a href="#movie" class="nav-link">Movie</a>
+              </li>
+              <li class="nav-item">
+                <a href="#movie" class="nav-link">Sports</a>
+              </li>
+              <li class="nav-item">
+                <a href="#movie" class="nav-link">Technology</a>
+              </li>
+              <li class="nav-item">
+                <a href="#movie" class="nav-link">Education</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </article>
+    </section>
+    <section id="covid">
+      <article class="container">
+        <ul class="navbar navbar-nav">
+          <li class="nav-item">
+            <h5 class="text-success font-weight-bold">Corona Details</h5>
+          </li>
+          <li class="nav-item"><h3>Global</h3>
+            <a href="" class="nav-link" id="covidBlock"></a>
+          </li>
+          <li class="nav-item"><h3>India</h3>
+            <a href="" class="nav-link" id="covidIndiaBlock"></a>
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section>
+      <article class="container">
+        <div class="row">
+          <div id="articleContent">
+            <!-- Sports strats -->
+            <div class="col-md-3 float-left">
+              <h4
+                class="p-2 border-bottom font-weight-bold text-white bg-primary mt-2 text-uppercase"
+              >
+                Sports news
+              </h4>
+
+              <div id="SportsSection">
+                <div id="FirstSports"></div>
+                <div id="AllSports"></div>
+              </div>
+            </div>
+            <!-- weather starts -->
+            <div class="col-md-5 ml-auto float-left">
+              <form>
+                <h5
+                  class="p-2 border-bottom font-weight-bold text-white bg-secondary mt-2 text-uppercase"
+                >
+                  Search weather
+                </h5>
+                <input
+                  type="search"
+                  class="form-control"
+                  id="input"
+                  placeholder="Search Weather"
+                />
+                
+              </form>
+              <div id="weatherTemplate"></div>
+            </div>
+            <!-- entertainment -->
+            <div class="col-md-4 ml-auto">
+              <h4
+                class="p-2 border-bottom font-weight-bold text-white bg-primary mt-2 text-uppercase"
+              >
+                Entertainment news
+              </h4>
+              <div id="SportsSection">
+                <div id="entertainmentAllTemplate"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <script src="./js/SportsApi.js"></script>
+    <script src="./js/EnterApi.js"></script>
+    <script src="./js/covid19.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/github.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBO4MLAm26wLH6YFGe9NF7Y6MSZgrogbg&libraries=places"></script>
+  </body>
+</html>
